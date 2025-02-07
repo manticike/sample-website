@@ -1,0 +1,136 @@
+/*styles.css*/
+* {
+    margin: 0;
+}
+
+/* navigation bar styling*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+
+path {
+    fill: #edeeed;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    padding-right: 30px;
+}
+
+/*Styling the hero section*/
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/home-hero-image.jpg);
+    color: #edeeed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.hero-section h3 {
+    font-size: 16px;
+}
+
+#hero-text h1 {
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+}
+
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#hire-me-btn {
+    font-weight: bold;
+    height: 60px;
+    width: 140px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+#hire-me-btn:hover {
+    background-color: #e57e62;
+    border: 2px solid #e57e62;
+}
+
+/* Styling the main section of the home page*/
+
+main {
+    padding: 100px 80px;
+    background-color: #0b0c11;
+    color: #edeeed;
+}
+
+.main-section h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.card {
+    width: 300px;
+    background: #13151c;
+    text-align: center;
+    padding: 20px;
+}
+
+.card p {
+    padding: 20px;
+    font-size: 16px;
+}
+
+
+/*Styling the footer of the home page*/
+
+footer {
+    background-color: #0b0c11;
+    color: #edeeed;
+}
